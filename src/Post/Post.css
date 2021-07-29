@@ -1,0 +1,41 @@
+.post{
+    background-color:darkslategrey;
+    width: 75%;
+    border-radius: 25px;
+    margin: 50px auto;
+    padding: 15px 20px;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.contentImg > img,
+.avatar > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+main{
+    color: white;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+}
+.contentImg{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin:auto;
+}
